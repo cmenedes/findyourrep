@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Map from '../src/components/Map/Map';
+import OlMap from '../src/components/OlMap/OlMap';
 
 function App() {
   return (
@@ -20,9 +20,9 @@ function App() {
           Learn React
         </a>
       </header>
-      {/* <div>
-        <Map></Map>
-      </div> */}
+      <div>
+        <OlMap></OlMap>
+      </div>
     </div>
   );
 }
